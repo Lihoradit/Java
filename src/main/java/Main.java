@@ -3,12 +3,12 @@ import java.util.Random;
 public class Main {
 
     public static void main(String[] args) {
-        int i= getRandomInt();
+       // int i= getRandomInt();
         //Посчитать и сохранить в n номер старшего значащего бита выпавшего числа
-        int n = Integer.toBinaryString(i).length();
-        System.out.println(String.valueOf(n));
-        StructureArrayMultiple(i,n);
-        StructureArrayNONMultiple(i,n);
+        //int n = Integer.toBinaryString(i).length();
+        //System.out.println(String.valueOf(n));
+        //StructureArrayMultiple(i,n);
+        //StructureArrayNONMultiple(i,n);
 
     }
 
